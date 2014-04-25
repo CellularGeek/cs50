@@ -15,6 +15,7 @@
  {
     //cast key "string" to "int"
     int key = atoi (argv[1]);
+    argc = 2;
     
     //get string from user
     string uString;
@@ -23,6 +24,8 @@
         uString = GetString();
     }
     while ( uString != NULL);
+    
+    for (int i = 0; i < argc; i++)
     
     for (int i = 0, n = strlen(uString); i < n; i++)
     {
