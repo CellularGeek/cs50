@@ -3,7 +3,7 @@
 // cs50 2014
 // Mohamed Dukuray
 
-/* The program asks a user for their name and then
+/* The program asks a user for their full name and then
 prints their initials to screen. */
 
 #include <stdio.h>
